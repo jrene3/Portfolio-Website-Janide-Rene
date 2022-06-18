@@ -44,3 +44,16 @@ p {
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   color: #091405;
 }
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #0F2706;
+  text-decoration: none; /* No underlining */
+}
+a:hover {
+  color: #20530D;
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
