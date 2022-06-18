@@ -31,7 +31,16 @@ h3 {
   font-size: 1.75em;
   font-weight: 600;
 }
+
 h4 {
   font-size: 1.35em;
   font-weight: 400;
+}
+
+p {
+  font-family: 'Source sans pro', sans-serif;
+  font-size: 16px; /* Sets the font size to 16px */
+  font-weight: 300; /* Sets the font weight to 300 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #091405;
 }
