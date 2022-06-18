@@ -53,7 +53,13 @@ a {
   color: #0F2706;
   text-decoration: none; /* No underlining */
 }
+a:visited { /* visited link */
+  color: #317F14;
+}
 a:hover {
   color: #20530D;
   text-decoration: underline; /* Underlining when hovering over a link */
+}
+a:active { /* selected link */
+  color: #43530D;
 }
