@@ -4,19 +4,22 @@ Background Color: #f6f9f5;
 Text Color: #091405;
 Accent Color: #0F2706;
 */
-
-
-body{
+body {
   background-color: #f6f9f5;
   font-family: 'Fahkwang', sans-serif;
-  font-size: 16px; /* Sets the font size to 16px */
-  font-weight: 300; /* Sets the font weight to 300 */
-  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  font-size: 16px;
+  /* Sets the font size to 16px */
+  font-weight: 300;
+  /* Sets the font weight to 300 */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 * the font-size */
   color: #091405;
 }
+
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
+
 h1 {
   font-size: 2.75em;
   font-weight: 700;
@@ -39,9 +42,12 @@ h4 {
 
 p {
   font-family: 'Source sans pro', sans-serif;
-  font-size: 16px; /* Sets the font size to 16px */
-  font-weight: 300; /* Sets the font weight to 300 */
-  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  font-size: 16px;
+  /* Sets the font size to 16px */
+  font-weight: 300;
+  /* Sets the font weight to 300 */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 * the font-size */
   color: #091405;
 }
 
@@ -51,54 +57,71 @@ img {
 
 a {
   color: #0F2706;
-  text-decoration: none; /* No underlining */
+  text-decoration: none;
+  /* No underlining */
 }
-a:visited { /* visited link */
+
+a:visited {
+  /* visited link */
   color: #317F14;
 }
+
 a:hover,
 a:focus {
   color: #20530D;
-  text-decoration: underline; /* Underlining when hovering over a link */
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
 }
-a:active { /* selected link */
+
+a:active {
+  /* selected link */
   color: #43530D;
 }
 
 .button {
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  display: inline-block;
+  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #0F2706;
-  color: #white; /* needed to override the default link color */
+  color: white;
+  /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #0F2706; /* width of the border, type, color */
+  border-bottom: 2px solid #0F2706;
+  /* width of the border, type, color */
   transition: 0.2s opacity;
 }
+
 .button:hover {
-  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  opacity: 0.8;
+  /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
+
 .button:active {
-background-color: #43530D;
-  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  background-color: #43530D;
+  opacity: 0.8;
+  /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
+
 .button.contact {
   background-color: transparent;
   color: #0F2706;
   text-transform: uppercase;
   border: 2px solid #0F2706;
 }
+
 .button.contact:hover {
   background-color: #0F2706;
   color: #ffffff;
 }
-.button.contact:active{
+
+.button.contact:active {
   background-color: #43530D;
   color: #ffffff;
 }
 
-.social{
+.social {
   width: 50px
 }
