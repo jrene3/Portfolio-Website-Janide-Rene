@@ -139,3 +139,20 @@ header {
   margin: 0.625em;
   border-bottom: 3px solid #4a4a4a;
 }
+
+/* Layout styling */
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+#hero h1 {
+  text-align: center; /* Centers text */
+}
+#work h2 {
+  text-align: center; /* Centers text */
+}
+#about h1 {
+  text-align: center; /* Centers text */
+}
+#befriendly-case h1 {
+  text-align: center; /* Centers text */
+}
