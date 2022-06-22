@@ -123,5 +123,16 @@ a:active {
 }
 
 .social {
-  width: 50px
+display: inline-block;
+  width: 5%
+}
+#logo {
+  display: inline-block;
+    width: 10%
+}
+header {
+  background-color: #D9E6D5;
+  padding: 0.625em;
+  margin: 0.625em;
+  border-bottom: 3px solid #4a4a4a;
 }
