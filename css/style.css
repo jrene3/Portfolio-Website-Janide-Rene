@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 /*
 Colors used:
 Background Color: #f6f9f5;
@@ -126,33 +127,73 @@ a:active {
 }
 
 .social {
-display: inline-block;
-  width: 5%
-}
-#logo {
   display: inline-block;
-    width: 10%
+  width: 15%
 }
+
 header {
   background-color: #D9E6D5;
   padding: 0.625em;
   margin: 0.625em;
   border-bottom: 3px solid #4a4a4a;
+  text-align: center;
+  padding: 10px 0;
 }
 
 /* Layout styling */
 .row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  margin: 25px 0;
+  /* 25px top and bottom, 0 left and right */
 }
+
 #hero h1 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
+
 #work h2 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
+
 #about h1 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
+
 #befriendly-case h1 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
+}
+
+#logo {
+  display: inline-block;
+  max-width: 250px;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+  width: 100%;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+nav > ul > li > a: visited {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+nav > ul > li > a: active {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
 }
