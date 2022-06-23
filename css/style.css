@@ -82,7 +82,7 @@ a:active {
   color: #43530D;
 }
 
-.button {
+a.button {
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #0F2706;
@@ -128,16 +128,18 @@ a:active {
 
 .social {
   display: inline-block;
-  width: 15%
+  width: 32px;
+  margin-top: 80px;
 }
 
 header {
   background-color: #D9E6D5;
-  padding: 0.625em;
-  margin: 0.625em;
-  border-bottom: 3px solid #4a4a4a;
   text-align: center;
   padding: 10px 0;
+  box-shadow: 0px 3px 6px 0px rgba(50, 50, 50, 0.5);
+  position: relative;
+  display: inline-block;
+  width: 100%;
 }
 
 /* Layout styling */
@@ -147,7 +149,7 @@ header {
 }
 
 #hero h1 {
-  text-align: center;
+  text-align: left;
   /* Centers text */
 }
 
@@ -168,32 +170,50 @@ header {
 
 #logo {
   display: inline-block;
-  max-width: 250px;
+  max-width: 100px;
 }
-nav > ul {
+
+nav>ul {
   list-style-type: none;
   padding: 0;
   display: inline-block;
   width: 100%;
 }
-nav > ul > li {
+
+nav>ul>li {
   display: inline-block;
 }
-nav > ul > li > a {
+
+nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #4a4a4a;
 }
-nav > ul > li > a: visited {
+
+nav>ul>li>a: visited {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #4a4a4a;
 }
-nav > ul > li > a: active {
+
+nav>ul>li>a: active {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #4a4a4a;
+}
+
+#hero {
+  background-color: #D9E6D5;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+main {
+  padding-top: 133px;
+}
+.cover img{
+  width: 70%;
 }
