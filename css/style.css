@@ -56,23 +56,23 @@ p {
 }
 
 img {
-  width: 100%;
+  width: 70%;
 }
 
 a {
-  color: #0F2706;
+  color: #091405;
   text-decoration: none;
   /* No underlining */
 }
 
 a:visited {
   /* visited link */
-  color: #317F14;
+  color: #254E15;
 }
 
 a:hover,
 a:focus {
-  color: #20530D;
+  color: #225110;
   text-decoration: underline;
   /* Underlining when hovering over a link */
 }
@@ -94,6 +94,7 @@ a.button {
   border-bottom: 2px solid #0F2706;
   /* width of the border, type, color */
   transition: 0.2s opacity;
+  text-transform: uppercase;
 }
 
 .button:hover {
@@ -128,7 +129,7 @@ a.button {
 
 .social {
   display: inline-block;
-  width: 32px;
+  width: 40px;
   margin-top: 80px;
 }
 
@@ -211,9 +212,17 @@ nav>ul>li>a: active {
   display: inline-block;
   width: 100%;
 }
+
 main {
   padding-top: 133px;
 }
-.cover img{
+
+.cover img {
   width: 70%;
+}
+
+#profile {
+  max-width: 80%;
+  margin: 0 auto;
+  display: block;
 }
