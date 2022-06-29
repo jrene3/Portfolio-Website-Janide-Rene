@@ -173,6 +173,10 @@ main {
   /* Centers text */
 }
 
+#sneak-case h1 {
+    text-align: center;
+}
+
 #logo {
   display: inline-block;
   max-width: 100px;
@@ -242,6 +246,10 @@ div#sneak-case img {
 .container {
     margin-left: 32px;
     margin-right: 32px;
+}
+
+#work img{
+  margin: auto;
 }
 
 /* ==============================
