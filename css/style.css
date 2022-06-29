@@ -156,7 +156,6 @@ main {
 .row {
   margin: 25px 0;
   /* 25px top and bottom, 0 left and right */
-  border-bottom: 1px solid #0F2706;
 }
 
 #work h2 {
@@ -238,6 +237,11 @@ div#sneak-case img {
   margin: auto;
   display: block;
   width: 80%;
+}
+
+.container {
+    margin-left: 32px;
+    margin-right: 32px;
 }
 
 /* ==============================
@@ -329,4 +333,48 @@ X-large devices (1440px or larger)
 
 #about-page h3 {
   margin-top: 0;
+}
+
+.cover {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+@keyframes color-change {
+  from {fill: #edc655;}
+  to {fill: #f76414;}
+}
+@keyframes color-change {
+  0% {fill: #edc655;}
+  50% {fill: #fcffad;}
+  100% {fill: #f76414;}
+}
+.sun {
+  animation-duration: 4s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  rotate(radius): 45deg;
+}
+
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
+.cloud-front {
+  animation-duration: 30s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px, 48px);}
+}
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
 }
