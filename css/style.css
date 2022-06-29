@@ -323,6 +323,7 @@ X-large devices (1440px or larger)
   float: left;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 15px;
 }
 
 .row::after {
