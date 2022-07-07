@@ -174,12 +174,12 @@ main {
 }
 
 #sneak-case h1 {
-    text-align: center;
+  text-align: center;
 }
 
 #logo {
   display: inline-block;
-  max-width: 100px;
+  max-width: 150px;
 }
 
 nav>ul {
@@ -244,11 +244,11 @@ div#sneak-case img {
 }
 
 .container {
-    margin-left: 32px;
-    margin-right: 32px;
+  margin-left: 32px;
+  margin-right: 32px;
 }
 
-#work img{
+#work img {
   margin: auto;
 }
 
@@ -316,6 +316,11 @@ Large devices (1024px or larger)
   }
 }
 
+#logo {
+  display: inline-block;
+  min-width: 641px;
+}
+
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
@@ -324,6 +329,11 @@ X-large devices (1440px or larger)
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #logo {
+    display: inline-block;
+    min-width: 641px;
   }
 }
 
@@ -351,14 +361,29 @@ X-large devices (1440px or larger)
 }
 
 @keyframes color-change {
-  from {fill: #edc655;}
-  to {fill: #f76414;}
+  from {
+    fill: #edc655;
+  }
+
+  to {
+    fill: #f76414;
+  }
 }
+
 @keyframes color-change {
-  0% {fill: #edc655;}
-  50% {fill: #fcffad;}
-  100% {fill: #f76414;}
+  0% {
+    fill: #edc655;
+  }
+
+  50% {
+    fill: #fcffad;
+  }
+
+  100% {
+    fill: #f76414;
+  }
 }
+
 .sun {
   animation-duration: 4s;
   animation-name: color-change;
@@ -369,9 +394,15 @@ X-large devices (1440px or larger)
 }
 
 @keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(200px, 50px);
+  }
 }
+
 .cloud-front {
   animation-duration: 30s;
   animation-name: cloud-move;
@@ -381,9 +412,15 @@ X-large devices (1440px or larger)
 }
 
 @keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
+  from {
+    transform: translate(446px, 48px);
+  }
+
+  to {
+    transform: translate(100px, 48px);
+  }
 }
+
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
