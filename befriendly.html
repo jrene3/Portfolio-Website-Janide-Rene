@@ -14,6 +14,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2d93a85494.js" crossorigin="anonymous"></script>
   <title> BeFriendly Case Study </title>
 </head>
 
@@ -21,13 +22,15 @@
   <!-- For the header -->
   <header>
     <!-- For the navigation -->
-    <div id="navigation">
+    <div id="navigation" class="container">
+      <div class="navtoggle" id="myNavtoggle">
       <a href="index.html"> <img src="img/logo.png" alt="Logo" id="logo"> </a>
       <nav>
         <ul>
           <li> <a href="index.html">Work</a> </li>
           <li> <a href="about.html">About</a> </li>
           <li> <a href="#Contact">Contact</a> </li>
+          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fa-solid fa-bars"></i></a></li>
         </ul>
       </nav>
     </div>
