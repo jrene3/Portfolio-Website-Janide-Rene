@@ -149,7 +149,7 @@ header {
 }
 
 main {
-  padding-top: 175px;
+  padding-top: 56px;
 }
 
 /* Layout styling */
@@ -191,7 +191,7 @@ nav>ul {
 }
 
 nav>ul>li>a {
-  padding: 0 15px;
+  padding: 25px 15px 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #4a4a4a;
@@ -217,7 +217,7 @@ nav>ul>li>a: active {
 
 #hero {
   background-color: #D9E6D5;
-  padding: 20px 0;
+  padding: 100px 0 20px 0;
   display: inline-block;
   width: 100%;
 }
@@ -261,8 +261,22 @@ div#sneak-case img {
   position: absolute;
   right: 0;
   top: 2px;
-  font-size: 20px;
+  font-size: 24px;
   padding-right: 0;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,127,80,0.5);
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
 }
 
 /* ==============================
