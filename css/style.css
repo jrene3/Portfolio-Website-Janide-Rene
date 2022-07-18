@@ -140,16 +140,15 @@ a.button {
 
 header {
   background-color: #D9E6D5;
-  padding: 10px 0 4px;
+  padding: 0;
   box-shadow: 0px 3px 6px 0px rgba(50, 50, 50, 0.5);
   position: fixed;
   display: inline-block;
   width: 100%;
-
 }
 
 main {
-  padding-top: 56px;
+  padding-top: 115px;
 }
 
 /* Layout styling */
@@ -217,7 +216,6 @@ nav>ul>li>a: active {
 
 #hero {
   background-color: #D9E6D5;
-  padding: 100px 0 20px 0;
   display: inline-block;
   width: 100%;
 }
@@ -269,13 +267,13 @@ div#sneak-case img {
   padding: 24px 0 0;
 }
 
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid rgba(255,127,80,0.5);
+  border-top: 1px solid rgba(255, 127, 80, 0.5);
 }
 
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
 
@@ -285,23 +283,24 @@ Medium devices (640px and larger)
 @media only screen and (min-width: 640px) {
   header {
     text-align: unset;
-    padding: 20px 0 13px;
+    padding: 0;
   }
 
   nav {
     width: auto;
     float: right;
-    margin-top: 4px;
+    margin: 20px auto;
   }
 
   main {
-    padding-top: 99px;
+    padding-top: 75px;
     font-size: 18px;
   }
 
   #hero {
     text-align: center;
     display: block;
+    padding: 30px 0 20px 0;
   }
 
   nav>ul {
@@ -323,6 +322,14 @@ Medium devices (640px and larger)
   .col-md-6 {
     width: 50%;
   }
+
+  h3 {
+    margin-top: 0;
+  }
+
+  #profile {
+    max-width: 65%;
+  }
 }
 
 /* ==============================
@@ -331,13 +338,13 @@ Large devices (1024px or larger)
 @media only screen and (min-width: 1024px) {
   header {
     text-align: unset;
-    padding: 20px 0 13px;
+    padding: 0;
   }
 
   nav {
     width: auto;
     float: right;
-    margin-top: 4px;
+    margin: 25px auto;
   }
 
   main {
@@ -350,12 +357,20 @@ Large devices (1024px or larger)
     display: block;
   }
 
+  #profile {
+    max-width: 50%;
+  }
+
   .col-lg-5 {
     width: 41.66%;
   }
 
   .col-lg-7 {
     width: 58.33%;
+  }
+
+  .col-lg-4 {
+    width: 33.33%;
   }
 }
 
