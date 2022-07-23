@@ -65,7 +65,7 @@ img.cover {
 }
 
 a {
-  color: #091405;
+  color: #254e15;
   text-decoration: none;
   /* No underlining */
 }
@@ -157,6 +157,10 @@ main {
   /* 25px top and bottom, 0 left and right */
 }
 
+#herotext {
+  margin: 0 24px;
+}
+
 #work h2 {
   text-align: center;
   /* Centers text */
@@ -237,7 +241,7 @@ div#befriendly-case img {
 }
 
 div#sneak-case img {
-  margin: auto;
+  margin: 24px auto;
   display: block;
   width: 80%;
 }
@@ -249,6 +253,12 @@ div#sneak-case img {
 
 #work img {
   margin: auto;
+}
+
+#footer {
+  text-align: center;
+  background-color: #d9e6d5;
+  padding: 24px;
 }
 
 .navtoggle, .navtoggle.responsive {
@@ -294,6 +304,9 @@ Medium devices (640px and larger)
 
   main {
     padding-top: 75px;
+  }
+
+  p {
     font-size: 18px;
   }
 
@@ -349,7 +362,7 @@ Large devices (1024px or larger)
 
   main {
     padding-top: 99px;
-    font-size: 18px;
+    font-size: 21px;
   }
 
   #hero h1 {
